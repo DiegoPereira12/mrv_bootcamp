@@ -1,17 +1,12 @@
-let count = 0;
+var currentNumberWrapper = document.getElementById('currentNumber')
+var currentNumber = 0;
 
-var currentNumberWrapper = document.getElementById('currentNumber');
-
-function increment() {
-	count++;
-	CURRENT_NUMBER.innerHTML = count;
+function increment(){
+	currentNumber = currentNumber + 1;
+	currentNumberWrapper.innerHTML = currentNumber
 }
 
-function decrement() {
-	count--;
-	CURRENT_NUMBER.innerHTML = count;
-}
-
-function test() {
-	kdowkdpo;
+function decrement(){
+	currentNumber = currentNumber - 1;
+	currentNumberWrapper.innerHTML = currentNumber
 }
