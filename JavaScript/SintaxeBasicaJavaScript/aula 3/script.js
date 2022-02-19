@@ -37,3 +37,20 @@ console.log(array);*/
 //slice retorna uma parte de um array existente
 let novoarray = array.slice(0,3);
 console.log(novoarray);
+
+//Objeto
+let object = {string:'string', number: 1, boolean: true, array:[array], objectInterno: {objectInterno:'Objeto intenos'}};
+console.log(object);
+
+//acessar object exemplos
+console.log(object.boolean);
+console.log(object.objectInterno);
+
+//Desistruturação do objeto
+var string = object.string;
+console.log(string);
+
+var arrayinterno = object.array;
+console.log(arrayinterno)
+
+
