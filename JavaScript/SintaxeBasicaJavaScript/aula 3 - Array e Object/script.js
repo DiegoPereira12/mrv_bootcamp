@@ -46,7 +46,7 @@ console.log(object);
 console.log(object.boolean);
 console.log(object.objectInterno);
 
-//Desistruturação do objeto
+//Desestruturação do objeto
 var string = object.string;
 console.log(string);
 
