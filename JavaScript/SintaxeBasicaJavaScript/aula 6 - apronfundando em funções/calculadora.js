@@ -1,5 +1,5 @@
 function calculadora(){
-    const operacao = Number(prompt('Escolha uma operação:\n 1 - Soma (+)\n 2 - Subtração (-)\n 3 - Multiplicação (*)\n- 4 - Divisão real (/)\n 4 - Divisão inteira (%)\n 6 - Potenciação (**)'));
+    const operacao = Number(prompt('Escolha uma operação:\n 1 - Soma (+)\n 2 - Subtração (-)\n 3 - Multiplicação (*)\n 4 - Divisão real (/)\n 4 - Divisão inteira (%)\n 6 - Potenciação (**)'));
 
     if (!operacao || operacao > 7){
         alert('Erro - operação invalida!');
@@ -13,8 +13,8 @@ function calculadora(){
         if (!n1 || !n2) {
             alert('Erro - parâmetros inválidos!')
             calculadora();
-        } else {
-            {function soma () {
+        } else{ 
+            function soma () {
                 resultado = n1 + n2;
                 alert ('${n1} + ${n2} = ${resultado}')
                 novaOperacao()
@@ -59,20 +59,20 @@ function calculadora(){
             }
         }
 
-        if (operacao = 1){
+        if (operacao == 1){
             soma();
-        } else if (operacao = 2) {
+        } else if (operacao == 2) {
             subtracao();
-        } else if (operacao = 3) {
+        } else if (operacao == 3) {
             multiplicacao();
-        } else if (operacao = 4) {
+        } else if (operacao == 4) {
             divisaoReal();
-        } else if (operacao = 5) {
+        } else if (operacao == 5) {
             divisaoInteira();
-        } else if (operacao = 6){ 
+        } else if (operacao == 6){ 
             potenciacao();
         }
     } 
 }
 
-calculadora();
+calculadora()
