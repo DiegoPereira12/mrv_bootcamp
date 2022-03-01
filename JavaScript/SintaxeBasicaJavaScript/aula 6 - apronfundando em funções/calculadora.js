@@ -16,37 +16,37 @@ function calculadora(){
         } else{ 
             function soma () {
                 resultado = n1 + n2;
-                alert ('${n1} + ${n2} = ${resultado}')
-                novaOperacao()
+                alert (`${n1} + ${n2} = ${resultado}`);
+                novaOperacao();
             }
             function subtracao () {
                 resultado = n1 - n2;
-                alert ('${n1} - ${n2} = ${resultado}')
+                alert (`${n1} - ${n2} = ${resultado}`);
                 novaOperacao()
             }
             function multiplicacao () {
                 resultado = n1 * n2;
-                alert ('${n1} * ${n2} = ${resultado}')
-                novaOperacao()
+                alert (`${n1} * ${n2} = ${resultado}`);
+                novaOperacao();
             }
             function divisaoReal () {
                 resultado = n1 / n2;
-                alert ('${n1} / ${n2} = ${resultado}')
+                alert (`${n1} / ${n2} = ${resultado}`);
                 novaOperacao()
             }
             function divisaoInteira () {
                 resultado = n1 % n2;
-                alert ('O resto da divisão ${n1} + ${n2} = ${resultado}')
-                novaOperacao()
+                alert (`${n1} % ${n2} = ${resultado}`);
+                novaOperacao();
             }
             function potenciacao () {
                 resultado = n1 ** n2;
-                alert (' ${n1} elevado ${n2} é igual a ${resultado}')
-                novaOperacao()
+                alert (`${n1} ** ${n2} = ${resultado}`);
+                novaOperacao();
             }
 
             function novaOperacao(){
-                let opcao = prompt('Deseja fazer outra operação?\n - Sim\n 2 - Não');
+                let opcao = prompt('Deseja fazer outra operação?\n 1 - Sim\n 2 - Não');
 
                 if (opcao == 1){
                     calculadora();
@@ -54,7 +54,7 @@ function calculadora(){
                     alert('Até mais')
                 } else {
                     alert('Digite uma opção válida.')
-                    novaOperacao()
+                    novaOperacao();
                 }
             }
         }
