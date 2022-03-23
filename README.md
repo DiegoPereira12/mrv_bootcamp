@@ -15,7 +15,7 @@
 <li><a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/JavaScript/SintaxeBasicaJavaScript/aula%205%20-%20funcoes"> |||||| > aula 5 - funcoes </a></li>
 <li><a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/JavaScript/SintaxeBasicaJavaScript/aula%206%20-%20apronfundando%20em%20fun%C3%A7%C3%B5es"> |||||| > aula 6 - apronfundando em funções </a></li>
 
-<li>:large_blue_circle:<a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/JavaScript/projetoContador"> || > projetoContador </a></li>
+<li>:large_blue_circle:<a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/JavaScript/projetoContador"> projetoContador </a></li>
   
 <li>:four:<a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/Sintaxe%20e%20Operadores"> mrv_bootcamp </a></li>
 <li>:five:<a href = "https://github.com/DiegoPereira12/mrv_bootcamp/tree/main/Tipos%20de%20Fun%C3%A7%C3%A3o"> Tipos de Função </a></li>
